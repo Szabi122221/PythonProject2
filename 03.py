@@ -1,5 +1,5 @@
 def szam_bekerese(legnagyobb_szam):
-    szam = input("Kérek egy számot")
+    szam = input("Kérek egy számot: ")
     if szam.isdigit():
         szam = int(szam)
         if szam==0:
@@ -13,10 +13,21 @@ def szam_bekerese(legnagyobb_szam):
     return szam
 
 # Program indítás
+muvelet = input("Milyen műveletet akar végrehajtani? (+,-,*,/): ")
 egyik_szam = szam_bekerese(10)
-print(egyik_szam)
 masik_szam = szam_bekerese(100)
-print(masik_szam)
+if muvelet == "+":
+    eredmeny = egyik_szam + masik_szam
+elif muvelet == "-":
+    eredmeny = egyik_szam - masik_szam
+elif muvelet == "*":
+    eredmeny = egyik_szam * masik_szam
+elif muvelet == "/":
+    eredmeny = egyik_szam / masik_szam
+else:
+    print("Nem megfelelő művelet!")
+
+print(f"Az eredmény: {egyik_szam} {muvelet} {masik_szam} = {eredmeny}")
 
 
 # masik_szam = input("Kérek egy másik számot")

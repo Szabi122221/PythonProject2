@@ -1,15 +1,19 @@
 import projekt03
-from projekt03 import szamologep, szam_bekerese
+from projekt03 import *
 
+szam = 10
+while szam > 2:
+    szam -= 1
+    if szam == 4:
+        continue
+    if szam == 3:
+        break
+    print(szam)
+else:
+    print("Vége a ciklusnak")
 
-def print_hi(name):
-    print(f'Hello, {name}')
-
-
-
-if __name__ == '__main__':
-    print_hi('Kelemen Szabolcs')
-
-szamologep()
-szam_bekerese(5)
+while True:
+    szam += 1
+    if szam == 30:
+        break
 

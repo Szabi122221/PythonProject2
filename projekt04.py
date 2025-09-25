@@ -15,8 +15,8 @@ def osszegzes(*args):
 
 if __name__ == "__main__":
     sorozat = [1,2,"három",4,5]
-for elem in sorozat:
-    print(elem)
+    for elem in sorozat:
+        print(elem)
 
 for i in range(1, 10):
     print(i)

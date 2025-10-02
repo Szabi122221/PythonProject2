@@ -1,3 +1,4 @@
+import turtle
 
 class Teglalap():
     alakzat = "téglalap"
@@ -56,3 +57,16 @@ harom = Haromszog(8, 10)
 '''print(harom.adatok())
 print("A területe= ", harom.terulet())'''
 
+
+class Mozgopont(turtle.Turtle):
+    def __init__(self, szin, x, y, sebesseg):
+        super().__init__()
+        self.shape("circle")
+        self.color(szin)
+        self.penup()
+        self.speed(5)
+        self.goto(x, y)
+        self.sebesseg = sebesseg
+
+    def inditas(self):
+        self.forward(self.sebesseg)

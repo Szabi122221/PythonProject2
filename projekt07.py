@@ -48,7 +48,9 @@ eredmeny_cimke.grid(row=2, column=1, pady=20)
 #eredmeny_cimke.pack(pady=20)
 
 kilepes = tk.Button(root, text="Kilépés", command=root.destroy, bg="red")
-kilepes.grid(row=3, column=1, pady=20)
+kilepes.grid(row=1, column=3, pady=20, padx=40)
 #kilepes.pack()
+
+on_dobas()
 
 tk.mainloop()

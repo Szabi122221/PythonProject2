@@ -1,5 +1,3 @@
-
-
 def negyszog(a, b):
     ker = 2 * a + 2 * b
     ter = a * b

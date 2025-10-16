@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08_n.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projekt08_n.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projekt08.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mentes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mentes.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mentes.csv",
+              "DocumentMoniker": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.csv",
+              "RelativeDocumentMoniker": "mentes.csv",
+              "ToolTip": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.csv",
+              "RelativeToolTip": "mentes.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-10-16T08:13:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mentes.txt",
+              "DocumentMoniker": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.txt",
+              "RelativeDocumentMoniker": "mentes.txt",
+              "ToolTip": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\mentes.txt",
+              "RelativeToolTip": "mentes.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-16T07:52:58.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "projekt08.py",
+              "DocumentMoniker": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08.py",
+              "RelativeDocumentMoniker": "projekt08.py",
+              "ToolTip": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08.py",
+              "RelativeToolTip": "projekt08.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-10-16T06:40:09.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "projekt08_n.py",
+              "DocumentMoniker": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08_n.py",
+              "RelativeDocumentMoniker": "projekt08_n.py",
+              "ToolTip": "C:\\Users\\kelem\\OneDrive\\Dokumentumok\\PythonProject2\\projekt08_n.py",
+              "RelativeToolTip": "projekt08_n.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-10-16T06:40:02.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

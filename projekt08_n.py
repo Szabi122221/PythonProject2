@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import projekt08
 import csv
+import sqlite3
 
 class KockaDobasMentes(projekt08.KockaDobas):
     def __init__(self, master):
@@ -10,8 +11,29 @@ class KockaDobasMentes(projekt08.KockaDobas):
         self.mentes_txt = tk.Button(master, text="Mentés txt fájlba", command=self.mentes_txtbe)
         self.mentes_txt.grid(row=3, column=0, pady=10)
 
-        self.mentes_csv = tk.Button(master, text="Mentés csv fájlba", command=self.mentes_csvbe)
+        self.sql = tk.Button(master, text="Mentés csv fájlba", command=self.mentes_csvbe)
+        self.sql.grid(row=3, column=3, pady=10)
+
+        self.mentes_csv = tk.Button(master, text="Mentés sql adatbázisba", command=self.mentes_sql)
         self.mentes_csv.grid(row=3, column=1, pady=10)
+
+    def mentes_sql(self):
+        try:
+            conn = sqlite3.connect("mentes.db")
+            db = conn.cursor()
+            db.execute("CREATE TABLE IF NOT EXISTS mentes (dobasok INT, egy INT, ketto INT, harom INT, negy INT, ot INT, hat INT)")
+            db.execute("INSERT INTO mentes VALUES (?, ?, ?, ?, ?, ?, ?)", (self.dobasok_szama,
+                                                                                        self.eredmenyek[1],
+                                                                                        self.eredmenyek[2],
+                                                                                        self.eredmenyek[3],
+                                                                                        self.eredmenyek[4],
+                                                                                        self.eredmenyek[5],
+                                                                                        self.eredmenyek[6]))
+
+            conn.commit()
+            conn.close()
+        except:
+            messagebox.showerror("Hiba", "Nem sikerült az SQL-be a mentés!")
 
     def mentes_csvbe(self):
         fajlnev = "mentes.csv"
